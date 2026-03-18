@@ -8,15 +8,15 @@ function PaginaInicial() {
     const navigate = useNavigate();
     return (
         <Principal>
-            <BotaoCustomizado tipo="primario" aoClicar={() => navigate("/lista-produtos")}>
-                Lisata de Produtos
-            </BotaoCustomizado>
+            <BotaoCustomizado tipo="primario" aoClicar={() => () => navigate("/lista-produtos')}>
+                 Lisata de Produtos
+                 </BotaoCustomizado>
             <BotaoCustomizado tipo="secundario" aoClicar={() => navigate("/Rota invalida")}>
                 Cancelar
-            </BotaoCustomizado>
-            <BotaoCustomizado tipo="terciario" aoClicar={() => alert("Editar ao Clicar")}>
+                </BotaoCustomizado>
+            <BotaoCustomizado tipo="terciario"aoClicar={() => alert("Editar ao Clicar")}>
                 Editar
-            </BotaoCustomizado>
+                </BotaoCustomizado>
         </Principal>
     );
 }

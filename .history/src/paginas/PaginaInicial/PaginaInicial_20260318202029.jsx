@@ -8,7 +8,7 @@ function PaginaInicial() {
     const navigate = useNavigate();
     return (
         <Principal>
-            <BotaoCustomizado tipo="primario" aoClicar={() => navigate("/lista-produtos")}>
+            <BotaoCustomizado tipo="primario" aoClicar={() => () => navigate("/lista-produtos")}>
                 Lisata de Produtos
             </BotaoCustomizado>
             <BotaoCustomizado tipo="secundario" aoClicar={() => navigate("/Rota invalida")}>
