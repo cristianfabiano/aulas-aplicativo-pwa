@@ -1,0 +1,9 @@
+.cabecalho__avatar {
+  background-color: var(--cor-cinza);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  color: var(--cor-texto-claro);
+}
