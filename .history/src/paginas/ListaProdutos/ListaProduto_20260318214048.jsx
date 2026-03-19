@@ -21,7 +21,7 @@ function ListaProdutos() {
     ];
 
     return (
-        <Principal>
+        <Principali>
             <h2>Lista de Produtos</h2>
 
             {produtos.map((itemProduto,index) => {

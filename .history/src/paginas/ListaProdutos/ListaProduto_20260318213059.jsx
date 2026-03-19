@@ -25,12 +25,8 @@ function ListaProdutos() {
             <h2>Lista de Produtos</h2>
 
             {produtos.map((itemProduto,index) => {
-                return (
-                <div key={index} className="lista-produtos__item">
-                    <span>{itemProduto.nome}</span>
-                    <span>{itemProduto.preco}</span>
-                 </div>
-                );
+                return <div key={index}>
+                    <span>{itemProduto.nome}</div>;</span>
             })}
         </Principal>
     );

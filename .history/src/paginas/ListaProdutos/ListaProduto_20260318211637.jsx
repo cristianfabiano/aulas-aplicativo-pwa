@@ -1,5 +1,5 @@
 import "./ListaProdutos.css";
-import Principal from "../../componentes/Principal/Principal";
+import "."
 
 function ListaProdutos() {
     const produtos = [
@@ -22,15 +22,10 @@ function ListaProdutos() {
 
     return (
         <Principal>
-            <h2>Lista de Produtos</h2>
+            <h2>Lista de Produtos</h2>;
 
-            {produtos.map((itemProduto,index) => {
-                return (
-                <div key={index} className="lista-produtos__item">
-                    <span>{itemProduto.nome}</span>
-                    <span>{itemProduto.preco}</span>
-                 </div>
-                );
+            {produtos.map((itemProduto) => {
+                return <div>{itemProduto.nome}</div>;
             })}
         </Principal>
     );

@@ -26,10 +26,10 @@ function ListaProdutos() {
 
             {produtos.map((itemProduto,index) => {
                 return (
-                <div key={index} className="lista-produtos__item">
+                <div key={index}>
                     <span>{itemProduto.nome}</span>
                     <span>{itemProduto.preco}</span>
-                 </div>
+                    </div>
                 );
             })}
         </Principal>
