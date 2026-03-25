@@ -25,8 +25,10 @@ function ListaProdutos() {
         <Principal>
             <h2>Lista de Produtos</h2>
 
-            {produtos.map((itemProduto, index) => {
-                return <ItemProduto key={index} produto={itemProduto} />;
+            {produtos.map((itemProduto,index) => {
+                return (
+                <ItemProduto key={index} produto={itemp}
+                );
             })}
         </Principal>
     );

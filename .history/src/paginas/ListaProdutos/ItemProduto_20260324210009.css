@@ -1,0 +1,17 @@
+.item-produto__rot {
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+item-produto__cores{
+    display: ;
+}
+
+.item-produto__cor{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+}
