@@ -12,7 +12,7 @@ function PaginaInicial() {
                 Lista de Produtos
             </BotaoCustomizado>
             <BotaoCustomizado tipo="secundario" aoClicar={() => navigate("/lista-tarefas")}>
-                Lista de Tarefas
+                Lisata de Tarefas
             </BotaoCustomizado>
             <BotaoCustomizado tipo="secundario" aoClicar={() => navigate("/Rota invalida")}>
                 Cancelar

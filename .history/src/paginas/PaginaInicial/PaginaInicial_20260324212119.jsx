@@ -9,10 +9,10 @@ function PaginaInicial() {
     return (
         <Principal>
             <BotaoCustomizado tipo="primario" aoClicar={() => navigate("/lista-produtos")}>
-                Lista de Produtos
+                Lisata de Produtos
             </BotaoCustomizado>
-            <BotaoCustomizado tipo="secundario" aoClicar={() => navigate("/lista-tarefas")}>
-                Lista de Tarefas
+            <BotaoCustomizado tipo="primario" aoClicar={() => navigate("/lista-produtos")}>
+                Lisata de Produtos
             </BotaoCustomizado>
             <BotaoCustomizado tipo="secundario" aoClicar={() => navigate("/Rota invalida")}>
                 Cancelar

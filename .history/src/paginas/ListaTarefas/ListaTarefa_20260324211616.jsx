@@ -1,0 +1,1 @@
+import Principal from "../../componentes/Principal"
