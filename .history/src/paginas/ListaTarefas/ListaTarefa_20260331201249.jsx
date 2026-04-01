@@ -8,11 +8,7 @@ function ListaTarefas() {
     const [tarefas, setTarefas] = useState([]);
 
     const adicionarTarefa = () => {
-        if(novaTarefa.trim() ===""){
-            alert("Digite uma tarefa para adicionar!");
-            return;
-        }
-
+        if(novaTarefa ===)
         console.log(novaTarefa);
 
         setTarefas([novaTarefa, ...tarefas]);

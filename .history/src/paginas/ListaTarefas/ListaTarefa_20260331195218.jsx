@@ -1,21 +1,15 @@
 import { useState } from "react";
 import Principal from "../../componentes/Principal/Principal";
 import CampoCustomizado from "../../componentes/CampoCustomizado/CampoCustomizado";
-import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizado";
+import BotaoCustomizado fron
 
 function ListaTarefas() {
     const [novaTarefa, setNovaTarefa] = useState("");
+
     const [tarefas, setTarefas] = useState([]);
 
     const adicionarTarefa = () => {
-        if(novaTarefa.trim() ===""){
-            alert("Digite uma tarefa para adicionar!");
-            return;
-        }
-
         console.log(novaTarefa);
-
-        setTarefas([novaTarefa, ...tarefas]);
     };
 
     return (

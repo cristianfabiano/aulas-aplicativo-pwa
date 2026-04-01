@@ -5,17 +5,13 @@ import BotaoCustomizado from "../../componentes/BotaoCustomizado/BotaoCustomizad
 
 function ListaTarefas() {
     const [novaTarefa, setNovaTarefa] = useState("");
+
     const [tarefas, setTarefas] = useState([]);
 
     const adicionarTarefa = () => {
-        if(novaTarefa.trim() ===""){
-            alert("Digite uma tarefa para adicionar!");
-            return;
-        }
-
         console.log(novaTarefa);
 
-        setTarefas([novaTarefa, ...tarefas]);
+        setTarefas()
     };
 
     return (
